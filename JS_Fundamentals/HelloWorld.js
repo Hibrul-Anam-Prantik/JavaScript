@@ -8,3 +8,4 @@ undefined
 if(js == "amazing") alert("JavaScript is FUN!");
 undefined
 if(js === 'amazing') alert("Great!");
+
