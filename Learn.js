@@ -44,8 +44,18 @@ let age = 30;
 age = 31;
 
 const birthYear = 2004;
-birthYear = 2003;
+// error --> constant variable can't be changed
+// birthYear = 2003;
 console.log(birthYear);
 
 //missing initializer in const declaration
 // const job; 
+
+var job = 'programmer';
+job = 'teacher';
+console.log(job);
+
+// no need to declare variable --> works fine as well --> not recommended though
+newVariable = 27;
+console.log(newVariable);
+
