@@ -1,4 +1,3 @@
-
 let js = 'amazing';
 console.log(10 + 5 + 6 - 7);
 console.log('Prantik');
@@ -41,3 +40,12 @@ x = null;
 console.log(x);
 console.log(typeof x); //object
 
+let age = 30;
+age = 31;
+
+const birthYear = 2004;
+birthYear = 2003;
+console.log(birthYear);
+
+//missing initializer in const declaration
+// const job; 
