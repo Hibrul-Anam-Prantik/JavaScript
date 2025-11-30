@@ -50,3 +50,7 @@ if(day === 'monday') {
 } else {
     console.log('Not a valid day!');
 } 
+
+// Conditional (Ternary) Operator
+const age2 = 23;
+age2 >= 18 ? console.log('I am an adlut ✅') : console.log('I am a minor ❌');
