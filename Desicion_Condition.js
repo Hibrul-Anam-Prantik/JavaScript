@@ -54,3 +54,18 @@ if(day === 'monday') {
 // Conditional (Ternary) Operator
 const age2 = 23;
 age2 >= 18 ? console.log('I am an adlut ✅') : console.log('I am a minor ❌');
+
+const drink = age2 >= 18 ? 'wine 🍷' : 'water 💧';
+console.log(drink);
+
+// The same logic using if-else
+let drink2;
+if(age2 >= 18) {
+    drink2 = 'wine 🍷';
+} else {
+    drink2 = 'water 💧';
+}
+console.log(drink2);
+
+// Using template literals
+console.log(`I like to drink ${age2 >= 18 ? 'wine 🍷' : 'water 💧'}`);
