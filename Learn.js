@@ -1,3 +1,4 @@
+'use strict';
 let js = 'amazing';
 console.log(10 + 5 + 6 - 7);
 console.log('Prantik');
@@ -108,3 +109,11 @@ console.log(agePrantik1, ageSarah1, averageAge);
 
 
 
+let hasDriversLicense = false;
+const passTest = true;
+
+if (passTest) hasDriversLicense = true;
+if (hasDriversLicense) console.log('I can drive :D');
+
+// const interface = 'Audio';
+// const private = 534;
