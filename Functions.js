@@ -26,3 +26,7 @@ const calcAge = function (birthYear) {
 };
 const age1 = calcAge(2004);
 console.log('Age is:', age1);
+
+// arrow function --> explicitly returns the value
+const calcAgeArrow = (birthYear) => 2024 - birthYear;
+console.log('Age is:', calcAgeArrow(2004));
