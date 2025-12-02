@@ -1,5 +1,8 @@
 'use strict';
 
+// can call the declared function before its declaration due to hoisting
+logger();
+
 // function declaration
 function logger() {
     console.log('Logger Activated!');
