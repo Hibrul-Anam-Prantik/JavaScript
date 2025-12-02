@@ -30,3 +30,13 @@ console.log('Age is:', age1);
 // arrow function --> explicitly returns the value
 const calcAgeArrow = (birthYear) => 2024 - birthYear;
 console.log('Age is:', calcAgeArrow(2004));
+
+// arrow function with multiple parameters and multiple lines of code
+
+const yearUntilRetirement = (birthYear, firstName) => {
+    const age = 2024 - birthYear;
+    const retirementAge = 65 - age;
+    return `${firstName} retires in ${retirementAge} years.`;
+};
+console.log(yearUntilRetirement(2004, 'Prantik'));
+
