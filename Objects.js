@@ -6,7 +6,10 @@ const person = {
     lastName : 'last-name',
     age : 18,
     job : 'programmer',
-    friends : ['friend1', 'friend2', 'friend3']
+    friends : ['friend1', 'friend2', 'friend3'],
+    calcAge : function (birthYear) {
+        return 2024 - birthYear;
+    }
 };
 console.log(person);
 
@@ -43,3 +46,6 @@ if(person[wannaKnow]) {
 } else {
     console.log('Wrong request! Choose between firstName, lastName, age, job, friends, location, gmail');
 }
+
+// object methods
+console.log(person.calcAge(2004));
