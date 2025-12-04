@@ -1,3 +1,4 @@
+'use strict';
 // object literal syntax
 // key-value pairs
 const person = {
@@ -8,7 +9,7 @@ const person = {
     job : 'programmer',
     friends : ['friend1', 'friend2', 'friend3'],
     calcAge : function (birthYear) {
-        return 2024 - birthYear;
+        return 2025 - birthYear;
     }
 };
 console.log(person);
@@ -49,3 +50,16 @@ if(person[wannaKnow]) {
 
 // object methods
 console.log(person.calcAge(2004));
+console.log(person['calcAge'](2003));
+
+const prantik = {
+    name : person.firstName + ' ' + person.lastName,
+    birthYear : 2004,
+    calcAge : function() {
+        return 2025 - this.birthYear;
+    }
+};
+
+console.log(prantik['calcAge']());
+console.log(prantik.calcAge());
+
