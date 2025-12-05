@@ -94,6 +94,12 @@ for(let i = 0; i < tempArr.length; ++i) {
 
 // backward looping
 console.log('===== Backward Looping =====');
+for(let i = tempArr.length - 1; i >= 0; i--) {
+    console.log(tempArr[i]);
+}
+
+// nested loops
+console.log('===== Nested Loops =====');
 for(let exercise = 1; exercise < 4; exercise++) {
     console.log(`--- Start exercise ${exercise} ---`);
     for(let rep = 1; rep <= 4; ++rep) {
