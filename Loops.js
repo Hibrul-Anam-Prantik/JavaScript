@@ -44,3 +44,14 @@ while(i < friends.length) {
     console.log(`${i+1}: ${friends[i]}`);
     i++;
 }
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+console.log(dice);
+
+while(dice !== 6) {
+    console.log(`You rolled a ${dice}`);
+    // dice++;
+    dice = Math.trunc(Math.random() * 6) + 1;
+    if(dice === 6 )console.log('Loop is about to end ...')
+}
