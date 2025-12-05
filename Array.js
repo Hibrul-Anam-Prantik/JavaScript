@@ -59,3 +59,35 @@ console.log(friends.indexOf('Zoro')); // -1 (not found)
 console.log(friends.includes('Ayesha')); // true
 console.log(friends.includes('Zoro')); // false
 
+// looping through an array
+const arr = ['a', 10, true, [1, 2]];
+const newArr = [];
+
+for(let i = 0; i < arr.length; ++i) {
+    console.log(arr[i], typeof arr[i]);
+    newArr[i] = typeof arr[i];
+    //newArr.push(typeof arr[i]);
+}
+console.log(newArr);
+
+const years2 = [1990, 2000, 2005, 2010, 2015];
+const ages2 = [];
+
+for(let i = 0; i < years2.length; ++i) {
+    ages2.push(2025 - years2[i]);
+}
+console.log(ages2);
+
+// continue and break statements
+const tempArr = ['Hello', 'World', 2025 - 2000, true, 'JavaScript'];
+console.log(tempArr);
+console.log('===== Only Strings =====');
+for(let i = 0; i < tempArr.length; ++i) {
+    if(typeof tempArr[i] !== 'string') continue; // continue to next iteration if not string
+    console.log(tempArr[i], typeof tempArr[i]);
+}
+console.log('===== Breaking at Non-String =====');
+for(let i = 0; i < tempArr.length; ++i) {
+    if(typeof tempArr[i] === 'number') break; // break the loop if number is found
+    console.log(tempArr[i], typeof tempArr[i]);
+}
