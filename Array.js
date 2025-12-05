@@ -91,3 +91,12 @@ for(let i = 0; i < tempArr.length; ++i) {
     if(typeof tempArr[i] === 'number') break; // break the loop if number is found
     console.log(tempArr[i], typeof tempArr[i]);
 }
+
+// backward looping
+console.log('===== Backward Looping =====');
+for(let exercise = 1; exercise < 4; exercise++) {
+    console.log(`--- Start exercise ${exercise} ---`);
+    for(let rep = 1; rep <= 4; ++rep) {
+        console.log(`  Weight Lifting Repetition ${rep} 🏋️‍♂️`);
+    }
+}
