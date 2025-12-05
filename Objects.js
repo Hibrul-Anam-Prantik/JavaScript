@@ -62,4 +62,3 @@ const prantik = {
 
 console.log(prantik['calcAge']());
 console.log(prantik.calcAge());
-
