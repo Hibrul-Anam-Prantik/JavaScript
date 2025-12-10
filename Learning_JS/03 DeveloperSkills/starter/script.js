@@ -6,6 +6,5 @@ if (x === 23) console.log(23);
 
 const birthYear = 2004;
 const calcAge = birthYear => 2025 - birthYear;
-
-console.log();
-console.log();
+console.log(calcAge(2004));
+console.log("Damn, I'm good at this JS stuff!");
